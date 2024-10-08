@@ -1,0 +1,22 @@
+﻿TABELA;COLUNA;DESCRIÇÃO
+VENDAS;ID_VENDA;Chave primária da tabela de vendas, registro único para cada transação
+VENDAS;DATA_VENDA;Data da venda
+VENDAS;ID_FILIAL;Chave estrangeira com a tabela filial, indica a filial que realizou a venda
+VENDAS;ID_CLIENTE;Chave estrangeira com a tabela cliente, indica o cliente que realizou a compra
+VENDAS;VALOR_VENDA;Valor realizado da venda
+VENDAS_PRODUTOS;ID_VENDA;Chave estrangeira com a tabela vendas, indica para qual venda aquele produto se destinou
+VENDAS_PRODUTOS;ID_PRODUTO;Chave estrangeira com a tabela produto, indica qual o produto daquela transação
+VENDAS_PRODUTOS;QUANTIDADE;Indica a quantidade de produtos vendidos daquele tipo para aquela venda
+VENDAS_PRODUTOS;VALOR_UNITARIO_VENDA_PRODUTO;Indica o valor unitário vendido daquele produto naquela venda específica (esse é o valor realizado, já contém eventuais descontos)
+VENDAS_PRODUTOS;VALOR_VENDA_PRODUTO;Indica o valor total vendido daquele produto naquela venda
+CLIENTES;ID_CLIENTE;Chave primária da tabela de vendas, registro único para cada cliente
+CLIENTES;NOME_CLIENTE;Nome do cliente
+CLIENTES;CIDADE;Cidade de cadastro do cliente
+CLIENTES;UF;UF de cadastro do cliente
+FILIAIS;ID_FILIAL;Chave primária da tabela filiais, registro único para cada filial
+FILIAIS;NOME_FILIAL;Nome da filial
+FILIAIS;CIDADE;Cidade da filial
+FILIAIS;UF;UF da filial
+PRODUTOS;ID_PRODUTO;Chave primária da tabela produtos, registro único para cada produto
+PRODUTOS;NOME_PRODUTO;Nome do produto
+PRODUTOS;PRECO_TABELA;Preço de tabela sugerido do produto (o vendedor tem alçada de 3% e o gerente de 7% de desconto sobre esse preço de tabela)
