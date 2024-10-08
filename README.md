@@ -1,10 +1,12 @@
-# Relatório de Vendas 
+# Relatório de Vendas 🎯 
 
-## Relatório de vendas
-## Período de Análise: Trimestre (Outubro, Novembro e Dezembro) ano de 2023
-## Data de Criação: 01/10/2024
-## Autor: Matheus Mata
-## Empresa: Driva Tecnologia
+### Relatório de vendas
+### Período de Análise: Trimestre (Outubro, Novembro e Dezembro) ano de 2023
+### Data de Criação: 01/10/2024
+### Autor: Matheus Mata
+### Empresa: Driva Tecnologia
+
+# Tecnologias utilizadas 💻 
 
 # Case
 A DrivaTech, uma subsidiária fictícia da Driva, é uma empresa que fornece soluções tecnológicas para o varejo. A plataforma da DrivaTech integra dados de vendas de diferentes pontos de venda e online para oferecer uma visão completa do comportamento do consumidor.
